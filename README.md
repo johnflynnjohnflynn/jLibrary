@@ -1,11 +1,13 @@
-Pure Data
-------------------------------------------------------------
+jLibrary
+--------
+
+FFT, convolution and general Pure Data library. Main objects are...
 
 ### [jTabConv]
 
 Convolve two tables by multiplication in the frequency domain using FFT.
 
-![jTabConv image](images/jTabConv-help.png)
+![jTabConv image](http://www.johnflynn.info/images/jTabConv-help.png)
 
 - $1 Table 1 (referred to here as 'x')
 - $2 Table 2 (referred to here as 'h')
@@ -23,13 +25,11 @@ Requires:
 - jLibrary [jLog]
 - iem_tab [tab_complex_mul]
 
-(Link pending)
-
 ### [jTabLookup]
 
 Fill a table with values processed by cross-connected object(s).
 
-![jTabLookup image](images/jTabLookup-help.png)
+![jTabLookup image](http://www.johnflynn.info/images/jTabLookup-help.png)
 
 Lookup table by index via [tabread4] 4-point interpolation.
 
@@ -47,5 +47,3 @@ Requires:
 
 - rj [m_scale]
 - iemguts [canvaserror]
-
-(Link pending)
